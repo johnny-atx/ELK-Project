@@ -42,8 +42,8 @@ Rather than configure ELK manually, we opted to develop a reusable Ansible Playb
 To use this playbook, one must log into the Jump Box docker container by doing the following:
 
 1. Start up container: `sudo docker start <"container-name">`
-2. Log into it: `sudo docker attach <"container-name">
-   ..* You should see prompt change to something like: `root@54c1d8713328:~#  `
+2. Log into it: `sudo docker attach <"container-name">`
+   ..* You should see prompt change to something like: `root@54c1d8713328:~#`
 3. From this prompt you can run: `ansible-playbook install_elk.yml elk`. This runs the `install_elk.yml` playbook on the `elk` host.
 
    ..* Hosts are added to /etc/ansible/hosts configuration file as follows:
