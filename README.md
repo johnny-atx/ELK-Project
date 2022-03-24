@@ -92,8 +92,7 @@ The following screenshot displays the result of running `docker ps` after succes
 
 
 
-  ![Alt text](Images\ELK-docker-ps.png "ELK docker ps command")
-
+![alt text](Images/ELK-docker-ps.png "ELK docker ps command")
 
 
 The playbook is duplicated below.
