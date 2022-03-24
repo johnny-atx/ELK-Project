@@ -216,7 +216,7 @@ $ mkdir files
 $ git clone https://github.com/johnny-atx/ELK-Project.git
 # Move Playbooks and hosts file Into `/etc/ansible`
 $ cp ELK-Project/Ansible/Playbooks/* .
-$ cp ELK-Project/Ansible/files/* ./files
+$ cp ELK-Project/Ansible/Files/* ./files
 ```
 
 This copies the playbook files to the correct place.
