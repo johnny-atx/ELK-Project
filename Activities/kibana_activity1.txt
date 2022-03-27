@@ -1,0 +1,80 @@
+Kibana Exercise
+1. Add the sample web log data to Kibana.
+
+2. Answer the following questions:
+
+    - In the last 7 days, how many unique visitors were located in India?
+	248
+
+    - In the last 24 hours, of the visitors from China, how many were using Mac OSX?
+	8
+
+    - In the last 2 days, what percentage of visitors received 404 errors? How about 503 errors?
+	7.692% 404, 0% 503
+
+    - In the last 7 days, what country produced the majority of the traffic on the website?
+	United States
+
+    - Of the traffic that's coming from that country, what time of day had the highest amount of activity?
+	11:00am
+
+    - List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type (use Google if you aren't sure about a particular file type).
+	-gz - compressed file using GNU zip (gzip) compression algorithm
+	-css - cascading style sheet (CSS)
+	-zip - compressed file
+	-deb - binary file for debian packages
+	-rpm - compressed file RedHat Package Manager intended for Linux flavors
+
+3. Now that you have a feel for the data, Let's dive a bit deeper. Look at the chart that shows Unique Visitors Vs. Average Bytes.
+     - Locate the time frame in the last 7 days with the most amount of bytes (activity).
+	
+     - In your own words, is there anything that seems potentially strange about this activity?
+	There are only 3 unique visitors per quantity of Avg. bytes
+
+4. Filter the data by this event.
+     - What is the timestamp for this event?
+	3/20/22 21:00
+     - What kind of file was downloaded?
+	RPM
+     - From what country did this activity originate?
+	United States
+     - What HTTP response codes were encountered by this visitor?
+	200
+5. Switch to the Kibana Discover page to see more details about this activity.
+     - What is the source IP address of this activity?
+	90.102.127.25
+     - What are the geo coordinates of this activity?
+	"lat": 40.37645722, "lon": -79.60837583 
+     - What OS was the source machine running?
+	Mac OSx
+     - What is the full URL that was accessed?
+	https://cdn.elastic-elastic-elastic.org/styles/ad-blocker.css
+     - From what website did the visitor's traffic originate?
+	/styles/ad-blocker.css
+6. Finish your investigation with a short overview of your insights. 
+
+     - What do you think the user was doing?
+	Downloading an ad blocker
+
+     - Was the file they downloaded malicious? 
+	Doesnt seem so. 
+
+	  If not, what is the file used for? 
+          To block add on web browser.
+
+     - Is there anything that seems suspicious about this activity?
+	The person was redirected from http://www.elastic-elastic-elastic.com/success/marc-garneau
+
+     - Is any of the traffic you inspected potentially outside of compliance guidelines?
+	Not that I could tell
+
+
+
+
+
+
+
+
+
+
+
