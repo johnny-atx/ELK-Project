@@ -66,7 +66,7 @@ Kibana Exercise
 	The person was redirected from http://www.elastic-elastic-elastic.com/success/marc-garneau
 
      - Is any of the traffic you inspected potentially outside of compliance guidelines?
-	Not that I could tell
+	Not that I could tell but worth keeping an eye on.
 
 
 
